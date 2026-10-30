@@ -1,0 +1,16 @@
+{
+  "n_avaliacoes": 18432,
+  "n_base": 1024,
+  "k": 16,
+  "invalidas": 0,
+  "nao_convergiram": 868,
+  "nao_atendem_rufas": 94,
+  "nao_atendem_rufas_e_nao_convergiram": 78,
+  "restricoes_violadas": {
+    "protein_constraint_lower": 86,
+    "NASEM_net_energy_constraint": 8
+  },
+  "pior_folga_pct_exigencia": -0.8874145963665616,
+  "mediana_folga_pct_exigencia": -0.04618816932654819,
+  "segundos": 43.45889067649841
+}

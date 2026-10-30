@@ -1,0 +1,102 @@
+# Executa o RuFaS em container.
+#
+# Uso (a partir da pasta docker/):
+#   docker compose build
+#   docker compose run --rm rufas                      # cenário padrão (freestall)
+#   docker compose run --rm rufas python main.py -c -g # limpa output e não gera gráficos
+#   docker compose run --rm rufas python main.py -p input/<outro>_metadata.json
+#   docker compose run --rm rufas python main.py -p go_campo_dourado_ifg/fazenda/pipeline_task_manager_metadata.json
+#
+# Módulo de otimização de dieta (serviço "otimizador", monta o repositório inteiro):
+#   docker compose run --rm otimizador tudo            # otimizar + Sobol + pairwise + RuFaS + relatório
+#   docker compose run --rm otimizador otimizar        # só a PL por lote, Simplex e economia
+#
+# Dashboard dos resultados (Streamlit, serviço "dashboard"):
+#   docker compose up dashboard                        # abrir http://localhost:8501 e escolher o CSV de ../output/CSVs
+#   Para usar a interface clonada de outro repositório, defina no docker/.env o caminho da pasta dela
+#   (relativo a docker/ ou absoluto), e o arquivo de entrada se não for app.py:
+#     RUFAS_DASHBOARD_DIR=../../interface-rufas/dashboard
+#     RUFAS_DASHBOARD_APP=app.py
+#     RUFAS_DASHBOARD_PORT=8501
+#     RUFAS_DASHBOARD_HOST=0.0.0.0      # padrão 127.0.0.1 (só esta máquina); 0.0.0.0 abre para a rede local
+#
+# Saída: ../output/CSVs/ (~880 MB, 3.322 colunas, 7 anos) e logs em ../output/logs/.
+# Dados editáveis (animal, dieta, preços, config): ../input/data/{animal,feed,config}/
+#
+# Requisitos do host:
+#   - Docker com BuildKit (Docker Desktop / Engine 23+).
+#   - 8 GB+ de RAM disponíveis para o container. Falta de RAM mata a simulação em silêncio
+#     ("0 erros", mas nenhum CSV). No Windows/WSL2, ajuste "memory" em %UserProfile%\.wslconfig.
+#   - ~2 GB livres em disco para a saída.
+
+name: rufas
+
+services:
+  rufas:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+      args:
+        # Rede com bloqueio SSL no pip (ex.: IFG): defina PIP_TRUSTED_HOST no ambiente/.env
+        PIP_INDEX_URL: ${PIP_INDEX_URL:-https://pypi.org/simple}
+        PIP_TRUSTED_HOST: ${PIP_TRUSTED_HOST:-}
+    image: rufas:1.0.5
+    container_name: rufas
+    working_dir: /app
+    volumes:
+      # Entradas: editadas no host, lidas pelo main.py em cadeia
+      # task_manager_metadata.json -> data/tasks/*.json -> metadata/*_metadata.json -> data/{animal,feed,config}
+      - ../input:/app/input
+      # Saídas: CSVs, logs e gráficos
+      - ../output:/app/output
+      - ../GO_campo_dourado:/app/GO_campo_dourado
+      - ../go_campo_dourado_ifg:/app/go_campo_dourado_ifg
+    environment:
+      PYTHONUNBUFFERED: "1"
+      MPLBACKEND: Agg
+      TZ: America/Sao_Paulo
+    command: ["python", "main.py"]
+    mem_reservation: 8g
+    shm_size: 1g
+    restart: "no"
+
+  otimizador:
+    image: rufas:1.0.5
+    working_dir: /app
+    # O repositório inteiro é montado: código do RuFaS, fazendas e saídas. O módulo otimizacao_dieta fica em
+    # go_campo_dourado_ifg/ (PYTHONPATH); o diretório de trabalho continua sendo a raiz, de onde vem o RuFaS.
+    volumes:
+      - ..:/app
+      - ../input:/app/input
+      - ../output:/app/output
+    environment:
+      PYTHONPATH: /app/go_campo_dourado_ifg
+      PYTHONUNBUFFERED: "1"
+      MPLBACKEND: Agg
+      TZ: America/Sao_Paulo
+    entrypoint: ["python", "-m", "otimizacao_dieta"]
+    command: ["tudo"]
+    mem_reservation: 8g
+    shm_size: 1g
+    restart: "no"
+
+  dashboard:
+    image: rufas:1.0.5
+    container_name: rufas-dashboard
+    # Equivale a "cd caminho/para/dashboard && streamlit run app.py". A pasta montada substitui a copiada na imagem,
+    # então edições no app.py valem sem rebuild.
+    working_dir: /app/dashboard
+    volumes:
+      - ${RUFAS_DASHBOARD_DIR:-../dashboard}:/app/dashboard
+      # Só leitura: CSVs gerados pelo serviço "rufas" e filtros de output_filters/
+      - ../output:/app/output:ro
+    ports:
+      - "${RUFAS_DASHBOARD_HOST:-127.0.0.1}:${RUFAS_DASHBOARD_PORT:-8501}:8501"
+    environment:
+      PYTHONUNBUFFERED: "1"
+      TZ: America/Sao_Paulo
+      # Bind mounts do Windows não geram eventos inotify; sem polling o Streamlit não percebe edições no app.py.
+      STREAMLIT_SERVER_FILE_WATCHER_TYPE: poll
+    entrypoint: ["streamlit", "run"]
+    command: ["${RUFAS_DASHBOARD_APP:-app.py}"]
+    restart: "no"

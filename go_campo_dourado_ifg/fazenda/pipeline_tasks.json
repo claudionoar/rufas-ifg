@@ -1,0 +1,14 @@
+{
+  "parallel_workers": 1,
+  "export_input_data_to_csv": false,
+  "input_data_csv_export_path": "output/CSVs",
+  "tasks": [
+    {
+      "task_type": "SIMULATION_SINGLE_RUN",
+      "metadata_file_path": "go_campo_dourado_ifg/fazenda/farm_metadata.json",
+      "output_prefix": "go_campo_dourado_ifg",
+      "log_verbosity": "errors",
+      "random_seeds": [44]
+    }
+  ]
+}

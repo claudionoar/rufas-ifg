@@ -1,0 +1,25 @@
+restricao,descricao,unidade,sentido,lado_direito,preco_sombra,valido_de,valido_ate
+calcio,Cálcio absorvível,g,>=,66.60128364568381,0.0012686864424582365,57.65076750008349,157.38074152971097
+fosforo,Fósforo absorvível,g,>=,64.34400694171788,0.1233368065546031,59.79417877708019,65.51413929445923
+pm_min,Proteína metabolizável (mínimo),g,>=,2447.435074107601,0.0049073704098309915,2351.9497661267155,2569.7446627528793
+pm_max,"Proteína metabolizável (máximo = 1,5 × exigência)",g,<=,3671.152611161401,0.0,2447.4350741076014,inf
+pmic_ndt,Proteína microbiana limitada pelo NDT,g,<=,0.0,-0.0022034659052837602,-76.4164579583746,81.2442940415208
+pmic_pdr,Proteína microbiana limitada pela PDR,g,<=,0.0,-0.0009372511570080722,-130.7486207462193,127.33074213793692
+fdn_min,FDN mínima (25% da MS),kg,>=,0.0,0.0,-inf,3.174063376664198
+fdn_max,FDN máxima (45% da MS),kg,<=,0.0,0.0,-1.6597967315651125,inf
+fdn_forragem,FDN de forragem mínima (15% da MS),kg,>=,0.0,0.0,-inf,3.913190592100683
+gordura_max,Extrato etéreo máximo (7% da MS),kg,<=,0.0,0.0,-0.5832645179863976,inf
+cms_min,Consumo de MS mínimo,kg,>=,18.769636859202507,0.0,-inf,24.169300541146534
+cms_max,Consumo de MS máximo,kg,<=,34.85789702423323,0.0,24.169300541146534,inf
+ell,Energia líquida de lactação (NASEM),Mcal,>=,43.62781521393101,0.10547127059259676,43.03707254241453,47.57014397817427
+max_51,Limite máximo de 51,kg MS,<=,20.0,0.0,0.3666308501445421,inf
+max_156,Limite máximo de 156,kg MS,<=,12.0,-0.0768903528676963,3.2827760907475643,12.570059668901322
+max_110,Limite máximo de 110,kg MS,<=,10.0,0.0,0.0,inf
+max_44,Limite máximo de 44,kg MS,<=,12.0,0.0,1.7763568394002505e-15,inf
+max_154,Limite máximo de 154,kg MS,<=,8.0,-0.014597842254875149,6.274516820307873,8.44409031117867
+max_163,Limite máximo de 163,kg MS,<=,6.0,0.0,0.0,inf
+max_167,Limite máximo de 167,kg MS,<=,8.0,0.0,1.5203853454420146,inf
+max_58,Limite máximo de 58,kg MS,<=,3.0,0.0,2.013844755041732,inf
+max_307,Limite máximo de 307,kg MS,<=,0.15,0.0,0.04151533961165571,inf
+max_234,Limite máximo de 234,kg MS,<=,0.3,0.0,0.026924250906576852,inf
+max_301,Limite máximo de 301,kg MS,<=,0.8,0.0,0.19999999999999996,inf

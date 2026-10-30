@@ -1,0 +1,122 @@
+[
+  {
+    "variavel": "excesso_cms_min",
+    "variavel_rotulo": "excesso sobre cms_min",
+    "valor": 5.399663681944029
+  },
+  {
+    "variavel": "234",
+    "variavel_rotulo": "Calcário calcítico",
+    "valor": 0.026924250906576984
+  },
+  {
+    "variavel": "excesso_fdn_forragem",
+    "variavel_rotulo": "excesso sobre fdn_forragem",
+    "valor": 3.913190592100683
+  },
+  {
+    "variavel": "folga_pm_max",
+    "variavel_rotulo": "folga de pm_max",
+    "valor": 1223.7175370538
+  },
+  {
+    "variavel": "156",
+    "variavel_rotulo": "Silagem de sorgo",
+    "valor": 12.000000000000004
+  },
+  {
+    "variavel": "m",
+    "variavel_rotulo": "proteína microbiana (variável auxiliar)",
+    "valor": 1984.7299195860644
+  },
+  {
+    "variavel": "folga_max_307",
+    "variavel_rotulo": "folga do limite máx. de Ureia",
+    "valor": 0.10848466038834428
+  },
+  {
+    "variavel": "folga_fdn_max",
+    "variavel_rotulo": "folga de fdn_max",
+    "valor": 1.6597967315651125
+  },
+  {
+    "variavel": "folga_max_234",
+    "variavel_rotulo": "folga do limite máx. de Calcário calcítico",
+    "valor": 0.27307574909342314
+  },
+  {
+    "variavel": "folga_gordura_max",
+    "variavel_rotulo": "folga de gordura_max",
+    "valor": 0.5832645179863976
+  },
+  {
+    "variavel": "excesso_fdn_min",
+    "variavel_rotulo": "excesso sobre fdn_min",
+    "valor": 3.174063376664198
+  },
+  {
+    "variavel": "folga_cms_max",
+    "variavel_rotulo": "folga de cms_max",
+    "valor": 10.688596483086696
+  },
+  {
+    "variavel": "167",
+    "variavel_rotulo": "Farelo de soja 48%",
+    "valor": 1.5203853454420169
+  },
+  {
+    "variavel": "folga_max_51",
+    "variavel_rotulo": "folga do limite máx. de Silagem de milho",
+    "valor": 19.633369149855458
+  },
+  {
+    "variavel": "folga_max_44",
+    "variavel_rotulo": "folga do limite máx. de Milho grão moído",
+    "valor": 11.999999999999998
+  },
+  {
+    "variavel": "folga_max_110",
+    "variavel_rotulo": "folga do limite máx. de Silagem de leguminosa (alfafa)",
+    "valor": 10.0
+  },
+  {
+    "variavel": "154",
+    "variavel_rotulo": "Sorgo grão moído",
+    "valor": 7.999999999999998
+  },
+  {
+    "variavel": "folga_max_58",
+    "variavel_rotulo": "folga do limite máx. de Caroço de algodão",
+    "valor": 0.9861552449582679
+  },
+  {
+    "variavel": "folga_max_163",
+    "variavel_rotulo": "folga do limite máx. de Casca de soja",
+    "valor": 6.0
+  },
+  {
+    "variavel": "folga_max_167",
+    "variavel_rotulo": "folga do limite máx. de Farelo de soja 48%",
+    "valor": 6.479614654557985
+  },
+  {
+    "variavel": "51",
+    "variavel_rotulo": "Silagem de milho",
+    "valor": 0.36663085014454294
+  },
+  {
+    "variavel": "307",
+    "variavel_rotulo": "Ureia",
+    "valor": 0.041515339611655704
+  },
+  {
+    "variavel": "58",
+    "variavel_rotulo": "Caroço de algodão",
+    "valor": 2.013844755041732
+  },
+  {
+    "variavel": "folga_max_301",
+    "variavel_rotulo": "folga do limite máx. de Mistura mineral",
+    "valor": 0.6000000000000001
+  }
+]

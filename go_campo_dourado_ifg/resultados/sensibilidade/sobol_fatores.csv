@@ -1,0 +1,17 @@
+nome,tipo,chave,minimo,maximo,base,rotulo
+preco_51,preco,51,0.5325,0.8875,0.71,Preço Silagem de milho
+preco_156,preco,156,0.5249999999999999,0.875,0.7,Preço Silagem de sorgo
+preco_110,preco,110,0.8999999999999999,1.5,1.2,Preço Silagem de leguminosa (alfafa)
+preco_44,preco,44,0.9375,1.5625,1.25,Preço Milho grão moído
+preco_154,preco,154,0.7725,1.2875,1.03,Preço Sorgo grão moído
+preco_163,preco,163,0.75,1.25,1.0,Preço Casca de soja
+preco_167,preco,167,1.6800000000000002,2.8000000000000003,2.24,Preço Farelo de soja 48%
+preco_58,preco,58,0.9825,1.6375000000000002,1.31,Preço Caroço de algodão
+preco_307,preco,307,2.6550000000000002,4.425,3.54,Preço Ureia
+preco_234,preco,234,0.30000000000000004,0.5,0.4,Preço Calcário calcítico
+preco_301,preco,301,3.375,5.625,4.5,Preço Mistura mineral
+leite_kg,animal,leite_kg,30.0,45.0,40.0,Produção de leite
+peso_vivo,animal,peso_vivo,650.0,800.0,750.0,Peso vivo
+del,animal,del,60.0,250.0,130.0,Dias em lactação
+gordura_pct,animal,gordura_pct,3.2,4.2,3.5,Gordura do leite
+preco_leite,preco_leite,preco_leite,2.0,3.0,2.5,Preço do leite

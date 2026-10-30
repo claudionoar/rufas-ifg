@@ -1,0 +1,15 @@
+# Arquivo de ignore específico do docker/Dockerfile (BuildKit), relativo à raiz do repositório.
+.git
+.github
+**/__pycache__
+**/*.pyc
+venv
+.venv
+input
+output
+!output/output_filters
+docs
+tests
+DataCollectionApp
+helpful_scripts
+requisitos-refaz

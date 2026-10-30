@@ -1,0 +1,85 @@
+{
+  "_leia_me": "Configuração do módulo otimizacao_dieta para a fazenda go_campo_dourado_ifg. Preços são valores de referência para estudo (Goiás, 2026) em R$/kg de matéria seca (MS); atualize com cotações locais (CEPEA, Conab, cooperativas) antes de usar para decisão.",
+  "fazenda": "go_campo_dourado_ifg",
+  "padrao_nutricional": "NASEM",
+  "moeda": "BRL",
+  "cambio_brl_por_usd": 5.40,
+  "preco_leite_brl_kg": 2.50,
+
+  "parametros_modelo": {
+    "_tolerancia_cms": "Fração +/- da CMS prevista aceita pelo otimizador. 0.30 é o valor do RuFaS (AnimalModuleConstants.DMI_CONSTRAINT_FRACTION).",
+    "tolerancia_cms": 0.30,
+    "_ch4_g_por_kg_cms": "Metano entérico por kg de CMS, calibrado na rodada base do GO_campo_dourado (338 g/vaca/dia / 25,3 kg CMS). Entra no desconto de energia do NASEM.",
+    "ch4_g_por_kg_cms": 13.3,
+    "_n_urina_g_por_kg_cms": "N urinário por kg de CMS, calibrado na mesma rodada base (264 g/vaca/dia / 25,3 kg CMS).",
+    "n_urina_g_por_kg_cms": 10.4,
+    "buffer_fosforo_pct": 0,
+    "reducao_leite_max_kg": 15,
+    "passo_reducao_leite_kg": 0.5,
+    "max_iter_slp": 40,
+    "tol_slp": 1e-7
+  },
+
+  "ingredientes": [
+    {"rufas_id": 51,  "nome": "Silagem de milho",            "preco_brl_kg_ms": 0.71, "min_kg_ms": 0.0, "max_kg_ms": 20.0},
+    {"rufas_id": 156, "nome": "Silagem de sorgo",            "preco_brl_kg_ms": 0.70, "min_kg_ms": 0.0, "max_kg_ms": 12.0},
+    {"rufas_id": 110, "nome": "Silagem de leguminosa (alfafa)", "preco_brl_kg_ms": 1.20, "min_kg_ms": 0.0, "max_kg_ms": 10.0},
+    {"rufas_id": 44,  "nome": "Milho grão moído",            "preco_brl_kg_ms": 1.25, "min_kg_ms": 0.0, "max_kg_ms": 12.0},
+    {"rufas_id": 154, "nome": "Sorgo grão moído",            "preco_brl_kg_ms": 1.03, "min_kg_ms": 0.0, "max_kg_ms": 8.0},
+    {"rufas_id": 163, "nome": "Casca de soja",               "preco_brl_kg_ms": 1.00, "min_kg_ms": 0.0, "max_kg_ms": 6.0},
+    {"rufas_id": 167, "nome": "Farelo de soja 48%",          "preco_brl_kg_ms": 2.24, "min_kg_ms": 0.0, "max_kg_ms": 8.0},
+    {"rufas_id": 58,  "nome": "Caroço de algodão",           "preco_brl_kg_ms": 1.31, "min_kg_ms": 0.0, "max_kg_ms": 3.0},
+    {"rufas_id": 307, "nome": "Ureia",                        "preco_brl_kg_ms": 3.54, "min_kg_ms": 0.0, "max_kg_ms": 0.15},
+    {"rufas_id": 234, "nome": "Calcário calcítico",           "preco_brl_kg_ms": 0.40, "min_kg_ms": 0.0, "max_kg_ms": 0.30},
+    {"rufas_id": 301, "nome": "Mistura mineral",              "preco_brl_kg_ms": 4.50, "min_kg_ms": 0.20, "max_kg_ms": 0.80}
+  ],
+
+  "_precos_outros": "Preços de alimentos que aparecem na rodada base do RuFaS mas não entram na otimização da vaca em lactação (bezerras e novilhas). Usados apenas para valorizar o consumo do rebanho inteiro com a mesma tabela de preços.",
+  "precos_outros_brl_kg_ms": {
+    "89": 1.10,
+    "202": 20.00,
+    "216": 3.40
+  },
+
+  "dieta_atual": {
+    "descricao": "Ração lac_cow fixada no feed.json do GO_campo_dourado (percentual da MS).",
+    "percentual_ms": {"51": 30, "110": 18, "44": 24, "167": 16, "58": 9, "301": 3}
+  },
+
+  "_lotes": "Lotes do quadro da aula (30, 15, 20 e 35 vacas = 100 vacas, igual ao cow_num da fazenda). O lote 'referencia' é a vaca do quadro: 750 kg, 2ª lactação, 130 DEL, 40 kg de leite.",
+  "lotes": [
+    {"id": "inicio",     "nome": "Início de lactação",      "n_vacas": 30, "peso_vivo": 680, "peso_adulto": 740, "parto": 2, "del": 45,  "leite_kg": 38, "gordura_pct": 3.5, "proteina_pct": 3.1, "lactose_pct": 4.85, "ecc": 2.75, "dias_gestacao": null, "intervalo_partos": 400, "distancia_m": 500, "alojamento": "Barn"},
+    {"id": "primiparas", "nome": "Primíparas",              "n_vacas": 15, "peso_vivo": 600, "peso_adulto": 740, "parto": 1, "del": 120, "leite_kg": 30, "gordura_pct": 3.6, "proteina_pct": 3.2, "lactose_pct": 4.85, "ecc": 3.0,  "dias_gestacao": 20,   "intervalo_partos": 400, "distancia_m": 500, "alojamento": "Barn"},
+    {"id": "final",      "nome": "Final de lactação",       "n_vacas": 20, "peso_vivo": 720, "peso_adulto": 740, "parto": 3, "del": 250, "leite_kg": 25, "gordura_pct": 3.9, "proteina_pct": 3.4, "lactose_pct": 4.85, "ecc": 3.25, "dias_gestacao": 130,  "intervalo_partos": 400, "distancia_m": 500, "alojamento": "Barn"},
+    {"id": "referencia", "nome": "Vaca referência (quadro)", "n_vacas": 35, "peso_vivo": 750, "peso_adulto": 750, "parto": 2, "del": 130, "leite_kg": 40, "gordura_pct": 3.5, "proteina_pct": 3.2, "lactose_pct": 4.85, "ecc": 3.0,  "dias_gestacao": null, "intervalo_partos": 400, "distancia_m": 500, "alojamento": "Barn"}
+  ],
+
+  "sensibilidade": {
+    "_leia_me": "Análise de Sobol (SALib) sobre o lote indicado. Cada amostra resolve a PL completa. n_base é potência de 2; o total de avaliações é n_base * (k + 2), com k fatores (sem índices de segunda ordem).",
+    "lote": "referencia",
+    "n_base": 1024,
+    "semente": 44,
+    "variacao_preco_pct": 25,
+    "fatores_animais": [
+      {"nome": "leite_kg",     "min": 30,  "max": 45},
+      {"nome": "peso_vivo",    "min": 650, "max": 800},
+      {"nome": "del",          "min": 60,  "max": 250},
+      {"nome": "gordura_pct",  "min": 3.2, "max": 4.2}
+    ],
+    "fator_preco_leite": {"min": 2.00, "max": 3.00}
+  },
+
+  "pairwise": {
+    "_leia_me": "Cenários de 3 níveis (baixo, base, alto) cobrindo todos os pares de fatores. 'fatores' = 'auto' usa os k mais influentes do Sobol (índice total ST).",
+    "fatores": "auto",
+    "k_auto": 6,
+    "semente": 44
+  },
+
+  "rufas": {
+    "_leia_me": "Simulação pareada no RuFaS: a dieta atual e a ótima rodam com as mesmas sementes (random_seeds), os mesmos preços e as mesmas entradas; só a ração do curral de lactação muda. Com a mesma semente o RuFaS repete a simulação. As sementes candidatas são usadas em ordem até completar 'pares' pares; se uma simulação do par falha no RuFaS, a semente é descartada e registrada. Cada simulação de 5 anos usa cerca de 5,5 GB de memória: 'simulacoes_paralelas' limita quantas rodam ao mesmo tempo.",
+    "sementes": [44, 45, 46, 47, 48, 49],
+    "pares": 3,
+    "simulacoes_paralelas": 2
+  }
+}

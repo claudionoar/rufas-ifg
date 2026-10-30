@@ -1,0 +1,11 @@
+{
+  "files": {
+    "tasks": {
+      "title": "Pipeline task — go_campo_dourado_ifg_otima_s45",
+      "description": "Task file dedicado para a fazenda sintética compartilhada GO_campo_dourado.",
+      "path": "go_campo_dourado_ifg/fazenda/cenarios/otima/tarefas_s45.json",
+      "type": "json",
+      "properties": "tasks_properties"
+    }
+  }
+}

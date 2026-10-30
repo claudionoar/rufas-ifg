@@ -1,0 +1,86 @@
+{
+  "gerado_em": "2026-10-30T00:37:52",
+  "ambiente": {
+    "python": "3.13.17",
+    "sistema": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12700T",
+    "cpus": 20,
+    "memoria_gb": 15.5,
+    "pacotes": {
+      "RuFaS": "1.0.5",
+      "numpy": "2.2.0",
+      "scipy": "1.18.1",
+      "pandas": "3.1.0",
+      "SALib": "1.5.1",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "etapas": [
+    {
+      "etapa": "otimizar",
+      "comando": "python -m otimizacao_dieta otimizar",
+      "inicio": "2026-10-30T00:05:31",
+      "segundos": 3.74,
+      "cpu_usuario_s": 9.58,
+      "cpu_sistema_s": 0.29,
+      "pico_memoria_mb": 209.4,
+      "codigo_saida": 0,
+      "log": "log_otimizar.txt"
+    },
+    {
+      "etapa": "sensibilidade",
+      "comando": "python -m otimizacao_dieta sensibilidade",
+      "inicio": "2026-10-30T00:05:35",
+      "segundos": 45.67,
+      "cpu_usuario_s": 744.16,
+      "cpu_sistema_s": 7.56,
+      "pico_memoria_mb": 240.5,
+      "codigo_saida": 0,
+      "log": "log_sensibilidade.txt"
+    },
+    {
+      "etapa": "pairwise",
+      "comando": "python -m otimizacao_dieta pairwise",
+      "inicio": "2026-10-30T00:06:21",
+      "segundos": 4.03,
+      "cpu_usuario_s": 9.15,
+      "cpu_sistema_s": 0.15,
+      "pico_memoria_mb": 209.8,
+      "codigo_saida": 0,
+      "log": "log_pairwise.txt"
+    },
+    {
+      "etapa": "comparar",
+      "comando": "python -m otimizacao_dieta comparar",
+      "inicio": "2026-10-30T00:06:25",
+      "segundos": 33.79,
+      "cpu_usuario_s": 39.96,
+      "cpu_sistema_s": 0.18,
+      "pico_memoria_mb": 209.6,
+      "codigo_saida": 0,
+      "log": "log_comparar.txt"
+    },
+    {
+      "etapa": "rufas",
+      "comando": "python -m otimizacao_dieta rufas",
+      "inicio": "2026-10-30T00:06:58",
+      "segundos": 1849.33,
+      "cpu_usuario_s": 2162.83,
+      "cpu_sistema_s": 64.78,
+      "pico_memoria_mb": 5544.6,
+      "codigo_saida": 0,
+      "log": "log_rufas.txt"
+    },
+    {
+      "etapa": "relatorio",
+      "comando": "python -m otimizacao_dieta relatorio",
+      "inicio": "2026-10-30T00:37:48",
+      "segundos": 4.02,
+      "cpu_usuario_s": 9.39,
+      "cpu_sistema_s": 0.53,
+      "pico_memoria_mb": 225.6,
+      "codigo_saida": 0,
+      "log": "log_relatorio.txt"
+    }
+  ]
+}

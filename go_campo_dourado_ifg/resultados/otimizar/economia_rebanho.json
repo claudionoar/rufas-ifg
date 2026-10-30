@@ -1,0 +1,30 @@
+{
+  "otima": {
+    "n_vacas": 100,
+    "leite_kg_dia": 3490.0,
+    "custo_dieta_brl_dia": 2288.076065625956,
+    "receita_leite_brl_dia": 8725.0,
+    "iofc_brl_dia": 6436.923934374045,
+    "iofc_brl_vaca_dia": 64.36923934374045,
+    "custo_alimentar_brl_kg_leite": 0.65560918785844,
+    "iofc_brl_ano": 2349477.236046526,
+    "custo_dieta_brl_ano": 835147.7639534739
+  },
+  "atual": {
+    "n_vacas": 100,
+    "leite_kg_dia": 3490,
+    "custo_dieta_brl_dia": 3284.562941650929,
+    "receita_leite_brl_dia": 8725.0,
+    "iofc_brl_dia": 5440.437058349071,
+    "iofc_brl_vaca_dia": 54.40437058349071,
+    "custo_alimentar_brl_kg_leite": 0.9411355133670284,
+    "iofc_brl_ano": 1985759.526297411,
+    "custo_dieta_brl_ano": 1198865.473702589
+  },
+  "atual_inviavel": {
+    "inicio": [
+      "protein_constraint_lower",
+      "NASEM_net_energy_constraint"
+    ]
+  }
+}

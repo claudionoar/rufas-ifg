@@ -1,0 +1,24 @@
+{
+  "fatores": [
+    "preco_leite",
+    "leite_kg",
+    "del",
+    "preco_167",
+    "preco_156",
+    "preco_51"
+  ],
+  "rotulos": [
+    "Preço do leite",
+    "Produção de leite",
+    "Dias em lactação",
+    "Preço Farelo de soja 48%",
+    "Preço Silagem de sorgo",
+    "Preço Silagem de milho"
+  ],
+  "n_cenarios": 18,
+  "fatorial_completo": 729,
+  "pares_descobertos": 0,
+  "nao_convergiram": 0,
+  "nao_atendem_rufas": 0,
+  "max_iteracoes_slp": 21
+}

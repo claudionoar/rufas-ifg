@@ -1,0 +1,231 @@
+grupo,caso,semente,custo,convergiu,menor_folga,restricoes_violadas,mensagem,segundos
+aula,Caso da aula (US$),0,4.625584926015758,False,-9.296093962960185,protein_constraint_lower,Iteration limit reached,0.21591119887307286
+aula,Caso da aula (US$),1,4.625022392217476,False,-12.608589494966509,protein_constraint_lower,Iteration limit reached,0.2097512548789382
+aula,Caso da aula (US$),2,4.6092503103321345,False,-72.22639975070251,"phosphorus_constraint, protein_constraint_lower",Iteration limit reached,0.24210633290931582
+aula,Caso da aula (US$),3,4.610839342446569,False,-69.22988485583664,"phosphorus_constraint, protein_constraint_lower",Iteration limit reached,0.24713744595646858
+aula,Caso da aula (US$),4,4.634292602468503,False,-8.695217275089817e-07,phosphorus_constraint,Iteration limit reached,0.25376659305766225
+aula,Caso da aula (US$),5,4.631605197078932,False,-16.211979818931013,"phosphorus_constraint, protein_constraint_lower",Iteration limit reached,0.23055370897054672
+aula,Caso da aula (US$),6,4.673207411927144,False,-7.462672613200994e-08,phosphorus_constraint,Iteration limit reached,0.22323399502784014
+aula,Caso da aula (US$),7,4.626711086643576,False,-19.995177686923398,"phosphorus_constraint, protein_constraint_lower",Iteration limit reached,0.1971130627207458
+aula,Caso da aula (US$),8,4.584910166601045,False,-121.90289046204907,protein_constraint_lower,Iteration limit reached,0.20210842695087194
+aula,Caso da aula (US$),9,4.628368120672323,False,-0.46070104288492075,"phosphorus_constraint, protein_constraint_lower",Iteration limit reached,0.2153648561798036
+lote,Início de lactação,0,27.076751810541193,True,-2.623892214614898e-09,protein_constraint_lower,Optimization terminated successfully,0.07386924279853702
+lote,Início de lactação,1,27.07675191333493,True,1.0811455467774067e-05,,Optimization terminated successfully,0.07395194005221128
+lote,Início de lactação,2,27.076751810512757,True,-5.8862497098743916e-09,protein_constraint_lower,Optimization terminated successfully,0.05990905733779073
+lote,Início de lactação,3,27.076754239483897,True,-4.989942681277171e-09,protein_constraint_lower,Optimization terminated successfully,0.07624363293871284
+lote,Início de lactação,4,27.076751810566115,True,-1.4642864698544145e-10,protein_constraint_lower,Optimization terminated successfully,0.10201000282540917
+lote,Início de lactação,5,27.076751815391386,True,-2.1100277081131935e-10,protein_constraint_lower,Optimization terminated successfully,0.11015973472967744
+lote,Início de lactação,6,27.07675181056524,True,-3.601599019020796e-10,protein_constraint_lower,Optimization terminated successfully,0.09063734812662005
+lote,Início de lactação,7,27.076751807546618,True,-3.451250449870713e-07,protein_constraint_lower,Optimization terminated successfully,0.08537413226440549
+lote,Início de lactação,8,27.076751808330613,True,-2.553974809416104e-07,protein_constraint_lower,Optimization terminated successfully,0.09020549384877086
+lote,Início de lactação,9,27.07675181042215,True,-1.6176727513084188e-08,protein_constraint_lower,Optimization terminated successfully,0.1157141150906682
+lote,Primíparas,0,18.360815193016013,True,3.410605131648481e-13,,Optimization terminated successfully,0.23563589807599783
+lote,Primíparas,1,18.369713709043523,True,-3.7410018194350414e-08,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.08200611127540469
+lote,Primíparas,2,18.360815465754293,True,-2.534277427912457e-07,"phosphorus_constraint, protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.08684979192912579
+lote,Primíparas,3,18.360815150064546,True,-2.4489509087288752e-08,"phosphorus_constraint, protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.10314106475561857
+lote,Primíparas,4,18.360815140316575,True,-3.54702933691442e-11,phosphorus_constraint,Optimization terminated successfully,0.11341994907706976
+lote,Primíparas,5,18.360815350784264,True,-1.6555645743210334e-11,"NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.10706740384921432
+lote,Primíparas,6,18.36081513278153,True,7.176481631177012e-13,,Optimization terminated successfully,0.11157712480053306
+lote,Primíparas,7,18.360815160200925,True,-6.0751403907488566e-12,"NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.12287757499143481
+lote,Primíparas,8,18.360815180371723,True,-2.3376856006507296e-12,NDF_constraint_upper,Optimization terminated successfully,0.0966791259124875
+lote,Primíparas,9,18.36081510659233,True,-8.504682682541898e-07,"phosphorus_constraint, protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.11339933099225163
+lote,Final de lactação,0,17.45518302209838,True,-2.830802259268239e-11,"phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.15695602679625154
+lote,Final de lactação,1,17.455183108937717,True,-6.558309451065725e-12,phosphorus_constraint,Optimization terminated successfully,0.10191284259781241
+lote,Final de lactação,2,17.455183051978395,True,-2.7149837933393428e-11,NASEM_net_energy_constraint,Optimization terminated successfully,0.08757568011060357
+lote,Final de lactação,3,17.455183418040882,True,-8.524443728674669e-08,"protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.09674605168402195
+lote,Final de lactação,4,17.455183042152964,True,-9.535483513900544e-12,NASEM_net_energy_constraint,Optimization terminated successfully,0.11184415314346552
+lote,Final de lactação,5,17.455183028786056,True,-6.912159733474255e-10,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.09089767187833786
+lote,Final de lactação,6,17.45518316344498,True,-8.327560863108374e-12,"phosphorus_constraint, NDF_constraint_upper",Optimization terminated successfully,0.11222668783739209
+lote,Final de lactação,7,17.455183014998255,True,-2.6290081223123707e-13,NDF_constraint_upper,Optimization terminated successfully,0.118208440952003
+lote,Final de lactação,8,17.455183022192635,True,-1.5418777365994174e-12,NASEM_net_energy_constraint,Optimization terminated successfully,0.10371119296178222
+lote,Final de lactação,9,17.455183015909935,True,-8.981758128356887e-07,"phosphorus_constraint, protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.13531798496842384
+lote,Vaca referência (quadro),0,24.005188090963507,True,-8.532165338692721e-07,protein_constraint_lower,Optimization terminated successfully,0.11044801073148847
+lote,Vaca referência (quadro),1,24.005187732515935,True,5.172751116333529e-12,,Optimization terminated successfully,0.18328611180186272
+lote,Vaca referência (quadro),2,24.00518784793436,True,-3.484501576167531e-11,calcium_constraint,Optimization terminated successfully,0.1194314886815846
+lote,Vaca referência (quadro),3,24.005188026833448,True,-6.0873048823850695e-09,phosphorus_constraint,Optimization terminated successfully,0.12109949998557568
+lote,Vaca referência (quadro),4,24.00518805265508,True,-5.347828846424818e-10,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.11276408424600959
+lote,Vaca referência (quadro),5,24.005188235165175,True,-1.0883795198424195e-08,phosphorus_constraint,Optimization terminated successfully,0.11671915138140321
+lote,Vaca referência (quadro),6,24.005187508956727,True,-8.777283255767543e-07,protein_constraint_lower,Optimization terminated successfully,0.19641382806003094
+lote,Vaca referência (quadro),7,24.005187512590634,True,2.4940050025179517e-12,,Optimization terminated successfully,0.1161611182615161
+lote,Vaca referência (quadro),8,24.005187597295503,True,-1.2789769243681803e-13,phosphorus_constraint,Optimization terminated successfully,0.16349060600623488
+lote,Vaca referência (quadro),9,24.006207515133603,False,-0.006410140461412084,"phosphorus_constraint, protein_constraint_lower",Positive directional derivative for linesearch,0.3765448620542884
+pairwise,Pairwise C01,0,19.48069435976529,True,-2.7675639557855902e-11,NDF_constraint_upper,Optimization terminated successfully,0.12029624218121171
+pairwise,Pairwise C01,1,19.480694349113165,True,-1.8894752429332584e-10,"phosphorus_constraint, protein_constraint_lower, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.12036423105746508
+pairwise,Pairwise C01,2,19.48069451097902,True,-1.1730821825040039e-07,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.09667385183274746
+pairwise,Pairwise C01,3,19.4806944816181,True,-2.4061819203780033e-10,NDF_constraint_upper,Optimization terminated successfully,0.09413329092785716
+pairwise,Pairwise C01,4,19.480694347506628,True,-2.82170731225051e-10,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.13558132480829954
+pairwise,Pairwise C01,5,19.480694528544188,True,-9.697487257653847e-10,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.1071437681093812
+pairwise,Pairwise C01,6,19.480694467468076,True,-6.886295977892587e-10,"phosphorus_constraint, NDF_constraint_upper",Optimization terminated successfully,0.1363917081616819
+pairwise,Pairwise C01,7,19.48069451434011,True,-1.341220468020765e-10,"phosphorus_constraint, NDF_constraint_upper",Optimization terminated successfully,0.10490856133401394
+pairwise,Pairwise C01,8,19.48069457600142,True,-1.2541079286165768e-11,NDF_constraint_upper,Optimization terminated successfully,0.11090532504022121
+pairwise,Pairwise C01,9,19.48069486273326,True,-7.334222118515754e-11,NASEM_net_energy_constraint,Optimization terminated successfully,0.07678398117423058
+pairwise,Pairwise C02,0,23.498529437322986,True,-9.87074599834159e-09,protein_constraint_lower,Optimization terminated successfully,0.056667385157197714
+pairwise,Pairwise C02,1,23.498529435859496,True,-2.330261850147508e-07,protein_constraint_lower,Optimization terminated successfully,0.05758073693141341
+pairwise,Pairwise C02,2,23.498529436536487,True,-1.2975260688108392e-07,protein_constraint_lower,Optimization terminated successfully,0.05482273316010833
+pairwise,Pairwise C02,3,23.498529432738934,True,-7.08636889612535e-07,protein_constraint_lower,Optimization terminated successfully,0.06218209397047758
+pairwise,Pairwise C02,4,23.49852943737592,True,-1.4788383850827813e-09,protein_constraint_lower,Optimization terminated successfully,0.05577946500852704
+pairwise,Pairwise C02,5,23.498529436554886,True,-1.267871994059533e-07,protein_constraint_lower,Optimization terminated successfully,0.06437285803258419
+pairwise,Pairwise C02,6,23.498529436600375,True,-1.2099599189241417e-07,protein_constraint_lower,Optimization terminated successfully,0.07111822860315442
+pairwise,Pairwise C02,7,23.498529431882332,True,-8.394490578211844e-07,protein_constraint_lower,Optimization terminated successfully,0.054518267046660185
+pairwise,Pairwise C02,8,23.498529436234477,True,-1.764547050697729e-07,protein_constraint_lower,Optimization terminated successfully,0.06171321356669068
+pairwise,Pairwise C02,9,23.498529437371737,True,-2.3637767299078405e-09,protein_constraint_lower,Optimization terminated successfully,0.05354900611564517
+pairwise,Pairwise C03,0,29.8269307344797,True,-1.0013877727033105e-08,phosphorus_constraint,Optimization terminated successfully,0.12495346227660775
+pairwise,Pairwise C03,1,29.832993227382257,True,-4.831690603168681e-13,phosphorus_constraint,Optimization terminated successfully,0.2561913658864796
+pairwise,Pairwise C03,2,29.82680811011047,False,-0.014299434785243648,protein_constraint_lower,Positive directional derivative for linesearch,0.34078668477013707
+pairwise,Pairwise C03,3,29.827157976137205,False,-0.00013220041410022532,protein_constraint_lower,Positive directional derivative for linesearch,0.40074773086234927
+pairwise,Pairwise C03,4,29.826313967072533,False,-0.0004559817907647812,protein_constraint_lower,Positive directional derivative for linesearch,0.28728450182825327
+pairwise,Pairwise C03,5,29.826788355487356,True,-2.382066213613143e-06,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.29920662101358175
+pairwise,Pairwise C03,6,29.825890886162448,True,-1.4618990462622605e-07,protein_constraint_lower,Optimization terminated successfully,0.12024919083341956
+pairwise,Pairwise C03,7,29.833357934265678,True,-1.576239583300776e-08,calcium_constraint,Optimization terminated successfully,0.2507578870281577
+pairwise,Pairwise C03,8,29.82669372391643,False,-0.00011158850384163088,"phosphorus_constraint, protein_constraint_lower",Positive directional derivative for linesearch,0.534425781108439
+pairwise,Pairwise C03,9,29.829964350430426,True,-2.7284841053187847e-12,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.26445664279162884
+pairwise,Pairwise C04,0,25.739383632908783,True,1.2639247870538384e-08,,Optimization terminated successfully,0.3793234131298959
+pairwise,Pairwise C04,1,25.738966417413852,True,-4.618323146132752e-08,protein_constraint_lower,Optimization terminated successfully,0.21481976425275207
+pairwise,Pairwise C04,2,25.737959245934604,True,1.1691554391290992e-09,,Optimization terminated successfully,0.20222653495147824
+pairwise,Pairwise C04,3,25.73795810069477,True,7.200151230790652e-08,,Optimization terminated successfully,0.35197895718738437
+pairwise,Pairwise C04,4,25.737958193559614,True,7.713133072684286e-06,,Optimization terminated successfully,0.16646932903677225
+pairwise,Pairwise C04,5,25.74178470385736,False,-0.039600140763923264,protein_constraint_lower,Positive directional derivative for linesearch,0.4624459291808307
+pairwise,Pairwise C04,6,25.737958111411714,True,-3.0986848287284374e-07,protein_constraint_lower,Optimization terminated successfully,0.14627879578620195
+pairwise,Pairwise C04,7,25.737958096129397,True,1.4870238373987377e-10,,Optimization terminated successfully,0.11332169221714139
+pairwise,Pairwise C04,8,25.737958131188385,True,4.547473508864641e-11,,Optimization terminated successfully,0.1311686560511589
+pairwise,Pairwise C04,9,25.737958152517724,True,-1.1326847015880048e-08,protein_constraint_lower,Optimization terminated successfully,0.12268116604536772
+pairwise,Pairwise C05,0,26.27560421592306,True,-1.2369127944111824e-10,"calcium_constraint, phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.1572795333340764
+pairwise,Pairwise C05,1,26.275604235261838,True,4.192202140984591e-13,,Optimization terminated successfully,0.13264732528477907
+pairwise,Pairwise C05,2,26.27560426542862,True,-1.2647660696529783e-12,"calcium_constraint, phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.21515819570049644
+pairwise,Pairwise C05,3,26.27560505091874,True,-3.867626219289377e-09,"calcium_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.174043039791286
+pairwise,Pairwise C05,4,26.275604551774613,True,-5.5138116294983774e-12,phosphorus_constraint,Optimization terminated successfully,0.11624362599104643
+pairwise,Pairwise C05,5,26.275604537719545,True,-9.357336239190772e-09,protein_constraint_lower,Optimization terminated successfully,0.17901754099875689
+pairwise,Pairwise C05,6,26.275605662438323,True,-5.717737394661526e-10,calcium_constraint,Optimization terminated successfully,0.09496152028441429
+pairwise,Pairwise C05,7,26.275604205334716,True,-2.2737367544323206e-13,calcium_constraint,Optimization terminated successfully,0.11529379710555077
+pairwise,Pairwise C05,8,26.275605460575278,True,-2.523847797419876e-11,calcium_constraint,Optimization terminated successfully,0.09774118103086948
+pairwise,Pairwise C05,9,26.27560489137089,True,-2.0815150492126122e-08,protein_constraint_lower,Optimization terminated successfully,0.45491212513297796
+pairwise,Pairwise C06,0,22.719106728319215,True,-3.172544893459417e-09,"NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.07140269316732883
+pairwise,Pairwise C06,1,22.71910673010603,True,-4.56779503110738e-10,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.040382123086601496
+pairwise,Pairwise C06,2,22.71910672880094,True,-5.17772491548385e-11,"calcium_constraint, phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.059333317913115025
+pairwise,Pairwise C06,3,22.719106728817973,True,-6.330935775622493e-12,"calcium_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.07625323394313455
+pairwise,Pairwise C06,4,22.719106728811237,True,-5.991296347929165e-11,"NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.06986432429403067
+pairwise,Pairwise C06,5,22.71910673758187,True,-1.8347918739891611e-09,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.062495124991983175
+pairwise,Pairwise C06,6,22.71910672876411,True,-2.7834090587930405e-10,"NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.0727912257425487
+pairwise,Pairwise C06,7,22.719106634084614,True,-4.807844220522384e-07,"calcium_constraint, phosphorus_constraint, NDF_constraint_upper, NASEM_net_energy_constraint",Optimization terminated successfully,0.04410742688924074
+pairwise,Pairwise C06,8,22.719106728815202,True,-9.976020010071807e-12,"phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.05558111285790801
+pairwise,Pairwise C06,9,22.719106728819384,True,-1.2079226507921703e-12,NASEM_net_energy_constraint,Optimization terminated successfully,0.06870526215061545
+pairwise,Pairwise C07,0,19.273302853715226,True,-7.818101721568382e-11,calcium_constraint,Optimization terminated successfully,0.08829121990129352
+pairwise,Pairwise C07,1,19.273302684139047,True,7.794653811288299e-12,,Optimization terminated successfully,0.0946503421291709
+pairwise,Pairwise C07,2,19.273302716334914,True,-6.743903213646263e-10,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.10162451770156622
+pairwise,Pairwise C07,3,19.2733026546609,True,-6.077266334614251e-08,"calcium_constraint, phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.12380476295948029
+pairwise,Pairwise C07,4,19.27330265512923,True,1.0302869668521453e-12,,Optimization terminated successfully,0.1106966850347817
+pairwise,Pairwise C07,5,19.273302754045037,True,-2.402700260972779e-10,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.11997291818261147
+pairwise,Pairwise C07,6,19.273302676314756,True,-4.0517988963983953e-10,"calcium_constraint, protein_constraint_lower",Optimization terminated successfully,0.1265040379948914
+pairwise,Pairwise C07,7,19.2733028133984,True,4.9602988383412594e-11,,Optimization terminated successfully,0.08488621795549989
+pairwise,Pairwise C07,8,19.273302664578882,True,-1.1543761502252892e-08,"calcium_constraint, phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.09704867005348206
+pairwise,Pairwise C07,9,19.27330287396926,True,-6.26954488325282e-09,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.10652741929516196
+pairwise,Pairwise C08,0,22.60466009453263,True,-4.410840119817294e-07,protein_constraint_lower,Optimization terminated successfully,0.0951568759046495
+pairwise,Pairwise C08,1,22.60465671237562,True,-1.964508555829525e-10,"calcium_constraint, phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.09834300121292472
+pairwise,Pairwise C08,2,22.604656713630888,True,-6.255368134588934e-08,protein_constraint_lower,Optimization terminated successfully,0.10085174674168229
+pairwise,Pairwise C08,3,22.604656820084976,True,-1.9895196601282805e-11,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.09372431831434369
+pairwise,Pairwise C08,4,22.604656753235105,True,5.688605142495362e-11,,Optimization terminated successfully,0.11329324077814817
+pairwise,Pairwise C08,5,22.60465835291817,True,-1.1937117960769683e-12,phosphorus_constraint,Optimization terminated successfully,0.12259716494008899
+pairwise,Pairwise C08,6,22.60465675740045,True,-3.842615114990622e-10,"calcium_constraint, phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.1157673173584044
+pairwise,Pairwise C08,7,22.604656773681178,True,-1.7607248992135283e-11,phosphorus_constraint,Optimization terminated successfully,0.11094032181426883
+pairwise,Pairwise C08,8,22.604657038301855,True,-6.417621989385225e-11,phosphorus_constraint,Optimization terminated successfully,0.10276603186503053
+pairwise,Pairwise C08,9,22.60465695139917,True,-2.735760062932968e-09,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.11517151212319732
+pairwise,Pairwise C09,0,31.2415271204176,True,-1.2499003787524998e-07,protein_constraint_lower,Optimization terminated successfully,0.0686021763831377
+pairwise,Pairwise C09,1,31.241527120180557,True,-1.5161685951170512e-07,protein_constraint_lower,Optimization terminated successfully,0.08182105701416731
+pairwise,Pairwise C09,2,31.241527121535533,True,-6.011759978719056e-10,protein_constraint_lower,Optimization terminated successfully,0.06027654418721795
+pairwise,Pairwise C09,3,31.241527121490243,True,-5.64205038244836e-09,protein_constraint_lower,Optimization terminated successfully,0.07948052696883678
+pairwise,Pairwise C09,4,31.241527121540418,True,-5.5933924159035087e-11,protein_constraint_lower,Optimization terminated successfully,0.06975394207984209
+pairwise,Pairwise C09,5,31.241527121562044,True,2.0881998352706432e-09,,Optimization terminated successfully,0.08382672211155295
+pairwise,Pairwise C09,6,31.24152712157465,True,3.75666786567308e-09,,Optimization terminated successfully,0.06297941319644451
+pairwise,Pairwise C09,7,31.241527121428682,True,-1.2544205674203113e-08,protein_constraint_lower,Optimization terminated successfully,0.07145276386290789
+pairwise,Pairwise C09,8,31.241527121541406,True,1.7280399333685637e-11,,Optimization terminated successfully,0.08344073360785842
+pairwise,Pairwise C09,9,31.241527121508554,True,-3.620243660407141e-09,protein_constraint_lower,Optimization terminated successfully,0.07679354213178158
+pairwise,Pairwise C10,0,21.907240207687902,True,4.39825953435502e-12,,Optimization terminated successfully,0.1966126780025661
+pairwise,Pairwise C10,1,21.907240326213856,True,-6.59383658785373e-11,"calcium_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.3136123400181532
+pairwise,Pairwise C10,2,21.907240375557635,True,-8.139977580867708e-11,protein_constraint_lower,Optimization terminated successfully,0.12713352032005787
+pairwise,Pairwise C10,3,21.907240277818783,True,-2.0999186745029874e-07,"calcium_constraint, protein_constraint_lower",Optimization terminated successfully,0.1256072297692299
+pairwise,Pairwise C10,4,21.907240382685664,True,-2.7175872219231678e-08,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.11413495009765029
+pairwise,Pairwise C10,5,21.907240613415286,True,-2.7980320282949833e-08,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.09902618499472737
+pairwise,Pairwise C10,6,21.90724050792066,True,-1.0913936421275139e-10,"calcium_constraint, phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.10610194178298116
+pairwise,Pairwise C10,7,21.90724075285973,True,-7.104006272129482e-10,calcium_constraint,Optimization terminated successfully,0.15200022514909506
+pairwise,Pairwise C10,8,21.9072402804464,True,-4.0608938434161246e-10,"calcium_constraint, phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.09893183736130595
+pairwise,Pairwise C10,9,21.907240449893592,True,-5.418172577265068e-10,calcium_constraint,Optimization terminated successfully,0.20972951920703053
+pairwise,Pairwise C11,0,17.394752395473162,True,-9.57030010795279e-11,calcium_constraint,Optimization terminated successfully,0.08657230297103524
+pairwise,Pairwise C11,1,17.39475203463771,True,-8.492548886351869e-10,calcium_constraint,Optimization terminated successfully,0.07131890906020999
+pairwise,Pairwise C11,2,17.3947521534169,True,-7.302887183868734e-10,calcium_constraint,Optimization terminated successfully,0.08317147195339203
+pairwise,Pairwise C11,3,17.394752363172113,True,-1.8247803268423013e-09,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.08197156386449933
+pairwise,Pairwise C11,4,17.394752031889507,True,-6.707541615469381e-07,"calcium_constraint, protein_constraint_lower",Optimization terminated successfully,0.38727534795179963
+pairwise,Pairwise C11,5,17.39475232979789,True,-9.63119362040743e-10,calcium_constraint,Optimization terminated successfully,0.07174278609454632
+pairwise,Pairwise C11,6,17.394752478463037,True,-2.510347485440434e-11,calcium_constraint,Optimization terminated successfully,0.09422917198389769
+pairwise,Pairwise C11,7,17.39475208987177,True,-6.600586743843451e-10,phosphorus_constraint,Optimization terminated successfully,0.10979893896728754
+pairwise,Pairwise C11,8,17.39475215877424,True,-5.555378379540343e-10,calcium_constraint,Optimization terminated successfully,0.0807410990819335
+pairwise,Pairwise C11,9,17.394752177924918,True,-1.5589307622576598e-11,phosphorus_constraint,Optimization terminated successfully,0.0759659381583333
+pairwise,Pairwise C12,0,19.389301322196225,True,-8.420144581577915e-10,"calcium_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.06272329017519951
+pairwise,Pairwise C12,1,19.389301322334255,True,-9.350742402602918e-12,"phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.09410053491592407
+pairwise,Pairwise C12,2,19.38930132233851,True,3.552713678800501e-13,,Optimization terminated successfully,0.08331604115664959
+pairwise,Pairwise C12,3,19.389301290426783,True,-1.8017571790096554e-07,"calcium_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.10340827517211437
+pairwise,Pairwise C12,4,19.389301317580706,True,-2.4920154828578234e-08,"calcium_constraint, phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.06537690525874496
+pairwise,Pairwise C12,5,19.38930132239658,True,9.340084261566517e-11,,Optimization terminated successfully,0.09009775379672647
+pairwise,Pairwise C12,6,19.389301322339783,True,-9.663381206337363e-13,phosphorus_constraint,Optimization terminated successfully,0.07296016905456781
+pairwise,Pairwise C12,7,19.389301322338003,True,-1.2434497875801753e-12,NASEM_net_energy_constraint,Optimization terminated successfully,0.08527376875281334
+pairwise,Pairwise C12,8,19.389301193044254,True,-7.407795976632769e-07,NASEM_net_energy_constraint,Optimization terminated successfully,0.0817962740547955
+pairwise,Pairwise C12,9,19.389301278638314,True,-2.4509250096116375e-07,"calcium_constraint, phosphorus_constraint, NASEM_net_energy_constraint",Optimization terminated successfully,0.09002744313329458
+pairwise,Pairwise C13,0,24.005188090963507,True,-8.532165338692721e-07,protein_constraint_lower,Optimization terminated successfully,0.11163060599938035
+pairwise,Pairwise C13,1,24.005187732515935,True,5.172751116333529e-12,,Optimization terminated successfully,0.18258156860247254
+pairwise,Pairwise C13,2,24.00518784793436,True,-3.484501576167531e-11,calcium_constraint,Optimization terminated successfully,0.11561568966135383
+pairwise,Pairwise C13,3,24.005188026833448,True,-6.0873048823850695e-09,phosphorus_constraint,Optimization terminated successfully,0.11259214207530022
+pairwise,Pairwise C13,4,24.00518805265508,True,-5.347828846424818e-10,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.11307032080367208
+pairwise,Pairwise C13,5,24.005188235165175,True,-1.0883795198424195e-08,phosphorus_constraint,Optimization terminated successfully,0.11423372197896242
+pairwise,Pairwise C13,6,24.005187508956727,True,-8.777283255767543e-07,protein_constraint_lower,Optimization terminated successfully,0.1631310898810625
+pairwise,Pairwise C13,7,24.005187512590634,True,2.4940050025179517e-12,,Optimization terminated successfully,0.09773289365693927
+pairwise,Pairwise C13,8,24.005187597295503,True,-1.2789769243681803e-13,phosphorus_constraint,Optimization terminated successfully,0.13027176167815924
+pairwise,Pairwise C13,9,24.006207515133603,False,-0.006410140461412084,"phosphorus_constraint, protein_constraint_lower",Positive directional derivative for linesearch,0.28994577284902334
+pairwise,Pairwise C14,0,26.281890312002346,True,-1.4325905794976279e-08,"calcium_constraint, protein_constraint_lower",Optimization terminated successfully,0.13182497071102262
+pairwise,Pairwise C14,1,26.281890871273774,True,-6.734039743605535e-07,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.12061177706345916
+pairwise,Pairwise C14,2,26.281890331497568,True,-7.828930392861366e-09,"phosphorus_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.15629756823182106
+pairwise,Pairwise C14,3,26.281889484446133,True,-4.3655745685100555e-11,"calcium_constraint, protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.0836837301030755
+pairwise,Pairwise C14,4,26.281889672293143,True,-3.761215339181945e-09,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.11515570199117064
+pairwise,Pairwise C14,5,26.28188953167194,True,-1.8755736164166592e-07,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.10658793337643147
+pairwise,Pairwise C14,6,26.281890067330984,True,-2.6197994884569198e-09,protein_constraint_lower,Optimization terminated successfully,0.1392889367416501
+pairwise,Pairwise C14,7,26.281889605925777,True,-4.455655044921514e-08,NASEM_net_energy_constraint,Optimization terminated successfully,0.1821005749516189
+pairwise,Pairwise C14,8,26.281889712239785,True,-6.722916623402853e-07,"calcium_constraint, phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.12738354271277785
+pairwise,Pairwise C14,9,26.281890897223672,True,-1.7552650888319477e-08,"calcium_constraint, phosphorus_constraint",Optimization terminated successfully,0.11919762892648578
+pairwise,Pairwise C15,0,31.030655733279833,True,-6.639311322942376e-11,protein_constraint_lower,Optimization terminated successfully,0.06752569787204266
+pairwise,Pairwise C15,1,31.030655733277815,True,-3.665263648144901e-10,protein_constraint_lower,Optimization terminated successfully,0.0895697670057416
+pairwise,Pairwise C15,2,31.03065573326803,True,-1.4915713109076023e-09,protein_constraint_lower,Optimization terminated successfully,0.0631645699031651
+pairwise,Pairwise C15,3,31.03065573326391,True,-1.8480932340025902e-09,protein_constraint_lower,Optimization terminated successfully,0.09535082103684545
+pairwise,Pairwise C15,4,31.030655732887745,True,-5.832953320350498e-08,protein_constraint_lower,Optimization terminated successfully,0.09096298506483436
+pairwise,Pairwise C15,5,31.03065572832792,True,-5.688261808245443e-07,protein_constraint_lower,Optimization terminated successfully,0.07362346025183797
+pairwise,Pairwise C15,6,31.030655733244142,True,-4.069988790433854e-09,protein_constraint_lower,Optimization terminated successfully,0.07657293509691954
+pairwise,Pairwise C15,7,31.03065573315737,True,-1.4249053492676467e-08,protein_constraint_lower,Optimization terminated successfully,0.07795059774070978
+pairwise,Pairwise C15,8,31.030655728322547,True,-5.69240000913851e-07,protein_constraint_lower,Optimization terminated successfully,0.09118690807372332
+pairwise,Pairwise C15,9,31.030655725097677,True,-9.392606443725526e-07,protein_constraint_lower,Optimization terminated successfully,0.07812636205926538
+pairwise,Pairwise C16,0,32.194725581958345,True,-6.323830348264892e-13,NASEM_net_energy_constraint,Optimization terminated successfully,0.06435002526268363
+pairwise,Pairwise C16,1,32.19472558195969,True,1.3216094885137863e-12,,Optimization terminated successfully,0.08023909060284495
+pairwise,Pairwise C16,2,32.19472558195969,True,1.6555645743210334e-12,,Optimization terminated successfully,0.07329903542995453
+pairwise,Pairwise C16,3,32.19472558062936,True,-1.6686180970282294e-07,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.06278811115771532
+pairwise,Pairwise C16,4,32.194725581958025,True,-3.5925040720030665e-11,protein_constraint_lower,Optimization terminated successfully,0.08477408718317747
+pairwise,Pairwise C16,5,32.19472558192923,True,-3.0850060284137726e-09,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.0704273208975792
+pairwise,Pairwise C16,6,32.19472558111919,True,-1.0204212230746634e-07,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.08023657277226448
+pairwise,Pairwise C16,7,32.19472558195634,True,-2.2146195988170803e-10,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.06843579094856977
+pairwise,Pairwise C16,8,32.19472558195751,True,-5.211404641158879e-10,protein_constraint_lower,Optimization terminated successfully,0.05401652492582798
+pairwise,Pairwise C16,9,32.19472557745345,True,-5.373140083975159e-07,"protein_constraint_lower, NASEM_net_energy_constraint",Optimization terminated successfully,0.05521740531548858
+pairwise,Pairwise C17,0,22.565811655791066,True,-1.978150976356119e-10,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.1381459729745984
+pairwise,Pairwise C17,1,22.565811682212658,True,-1.1525003174028825e-11,phosphorus_constraint,Optimization terminated successfully,0.1384616787545383
+pairwise,Pairwise C17,2,22.5658123550359,True,-4.504436219576746e-07,protein_constraint_lower,Optimization terminated successfully,0.12269338732585311
+pairwise,Pairwise C17,3,22.56581249715923,True,-6.621644388360437e-07,protein_constraint_lower,Optimization terminated successfully,0.13208398083224893
+pairwise,Pairwise C17,4,22.56581163694705,True,1.0089706847793423e-12,,Optimization terminated successfully,0.1932607376947999
+pairwise,Pairwise C17,5,22.565811670173208,True,-5.411493475548923e-11,protein_constraint_lower,Optimization terminated successfully,0.1366366120055318
+pairwise,Pairwise C17,6,22.565811691402523,True,4.519051799434237e-12,,Optimization terminated successfully,0.1634614854119718
+pairwise,Pairwise C17,7,22.565813243944966,True,-1.7681941244518384e-08,protein_constraint_lower,Optimization terminated successfully,0.15318715432658792
+pairwise,Pairwise C17,8,22.565811663084382,True,-4.1382008930668235e-11,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.15557266119867563
+pairwise,Pairwise C17,9,22.56581196608732,True,-5.911715561524034e-11,protein_constraint_lower,Optimization terminated successfully,0.1378106758929789
+pairwise,Pairwise C18,0,22.568436547312132,True,-4.590106073010247e-12,phosphorus_constraint,Optimization terminated successfully,0.12396188313141465
+pairwise,Pairwise C18,1,22.56843612351421,True,-5.160527507541701e-07,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.1772272139787674
+pairwise,Pairwise C18,2,22.568436999059156,True,-4.2194005800411105e-07,protein_constraint_lower,Optimization terminated successfully,0.13390022795647383
+pairwise,Pairwise C18,3,22.568441311859893,False,-3.684714693008573e-05,protein_constraint_lower,Iteration limit reached,0.5137406270951033
+pairwise,Pairwise C18,4,22.568641783768214,True,-9.727770589051943e-09,phosphorus_constraint,Optimization terminated successfully,0.19131772499531507
+pairwise,Pairwise C18,5,22.568436155453384,True,-4.62006119050784e-06,protein_constraint_lower,Optimization terminated successfully,0.24730797996744514
+pairwise,Pairwise C18,6,22.569919263972512,True,-1.3664248399436474e-08,protein_constraint_lower,Optimization terminated successfully,0.3562937988899648
+pairwise,Pairwise C18,7,22.56843632478653,True,-3.059153641515877e-07,"phosphorus_constraint, protein_constraint_lower",Optimization terminated successfully,0.11416659085080028
+pairwise,Pairwise C18,8,22.568445059441967,True,5.215383680479135e-12,,Optimization terminated successfully,0.17038854397833347
+pairwise,Pairwise C18,9,22.568436038849796,False,-2.2166664166434202e-05,protein_constraint_lower,Iteration limit reached,0.5323036909103394

@@ -1,0 +1,309 @@
+{
+  "rufas_1_0_5": {
+    "otima": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490.0,
+      "custo_dieta_brl_dia": 2288.076065625956,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 6436.923934374045,
+      "iofc_brl_vaca_dia": 64.36923934374045,
+      "custo_alimentar_brl_kg_leite": 0.65560918785844,
+      "iofc_brl_ano": 2349477.236046526,
+      "custo_dieta_brl_ano": 835147.7639534739
+    },
+    "atual": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490,
+      "custo_dieta_brl_dia": 3284.562941650929,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 5440.437058349071,
+      "iofc_brl_vaca_dia": 54.40437058349071,
+      "custo_alimentar_brl_kg_leite": 0.9411355133670284,
+      "iofc_brl_ano": 1985759.526297411,
+      "custo_dieta_brl_ano": 1198865.473702589
+    },
+    "atual_inviavel": {
+      "inicio": {
+        "protein_constraint_lower": -292.0209743832638,
+        "NASEM_net_energy_constraint": -1.237920374016504
+      }
+    },
+    "lotes": {
+      "inicio": {
+        "custo_otima": 27.51004717364892,
+        "cms_otima": 26.780279254779085,
+        "custo_atual": 32.98484633446312,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 48.538601862098105,
+        "pm_g": 2943.940996305968,
+        "elg_gestacao_mcal": 7.634087999999999
+      },
+      "primiparas": {
+        "custo_otima": 18.328376348102758,
+        "cms_otima": 19.562735367746598,
+        "custo_atual": 28.629305060850857,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 34.71549723831459,
+        "pm_g": 1866.625618848531,
+        "elg_gestacao_mcal": 0.017187344398317664
+      },
+      "final": {
+        "custo_otima": 17.389227268848064,
+        "cms_otima": 18.620148119756553,
+        "custo_atual": 30.38653807924083,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 33.1307999485654,
+        "pm_g": 1791.3748967781812,
+        "elg_gestacao_mcal": 0.3133752486962841
+      },
+      "referencia": {
+        "custo_otima": 24.0018417090853,
+        "cms_otima": 24.169300541146526,
+        "custo_atual": 35.93849183198446,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 43.62781521393101,
+        "pm_g": 2447.435074107601,
+        "elg_gestacao_mcal": 0.0
+      }
+    },
+    "reducao_custo_pct": 30.33849232690016,
+    "diferenca_iofc_brl_ano": 363717.70974911517
+  },
+  "sem_erro_gestacao": {
+    "otima": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490.0,
+      "custo_dieta_brl_dia": 2126.7410019148683,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 6598.258998085132,
+      "iofc_brl_vaca_dia": 65.98258998085132,
+      "custo_alimentar_brl_kg_leite": 0.609381375906839,
+      "iofc_brl_ano": 2408364.5343010733,
+      "custo_dieta_brl_ano": 776260.465698927
+    },
+    "atual": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490,
+      "custo_dieta_brl_dia": 3284.562941650929,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 5440.437058349071,
+      "iofc_brl_vaca_dia": 54.40437058349071,
+      "custo_alimentar_brl_kg_leite": 0.9411355133670284,
+      "iofc_brl_ano": 1985759.526297411,
+      "custo_dieta_brl_ano": 1198865.473702589
+    },
+    "atual_inviavel": {},
+    "lotes": {
+      "inicio": {
+        "custo_otima": 22.132211716612677,
+        "cms_otima": 22.75221666926162,
+        "custo_atual": 32.98484633446312,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 40.9045138620981,
+        "pm_g": 2248.4864508514224,
+        "elg_gestacao_mcal": 0.0
+      },
+      "primiparas": {
+        "custo_otima": 18.328376348102758,
+        "cms_otima": 19.562735367746598,
+        "custo_atual": 28.629305060850857,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 34.71549723831459,
+        "pm_g": 1866.625618848531,
+        "elg_gestacao_mcal": 0.017187344398317664
+      },
+      "final": {
+        "custo_otima": 17.389227268848064,
+        "cms_otima": 18.620148119756553,
+        "custo_atual": 30.38653807924083,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 33.1307999485654,
+        "pm_g": 1791.3748967781812,
+        "elg_gestacao_mcal": 0.3133752486962841
+      },
+      "referencia": {
+        "custo_otima": 24.0018417090853,
+        "cms_otima": 24.169300541146526,
+        "custo_atual": 35.93849183198446,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 43.62781521393101,
+        "pm_g": 2447.435074107601,
+        "elg_gestacao_mcal": 0.0
+      }
+    },
+    "reducao_custo_pct": 35.25041109896044,
+    "diferenca_iofc_brl_ano": 422605.00800366234
+  },
+  "perdas_fixas": {
+    "otima": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490.0,
+      "custo_dieta_brl_dia": 2292.25711213766,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 6432.74288786234,
+      "iofc_brl_vaca_dia": 64.3274288786234,
+      "custo_alimentar_brl_kg_leite": 0.656807195454917,
+      "iofc_brl_ano": 2347951.154069754,
+      "custo_dieta_brl_ano": 836673.8459302459
+    },
+    "atual": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490,
+      "custo_dieta_brl_dia": 3284.562941650929,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 5440.437058349071,
+      "iofc_brl_vaca_dia": 54.40437058349071,
+      "custo_alimentar_brl_kg_leite": 0.9411355133670284,
+      "iofc_brl_ano": 1985759.526297411,
+      "custo_dieta_brl_ano": 1198865.473702589
+    },
+    "atual_inviavel": {
+      "inicio": {
+        "protein_constraint_lower": -292.0209743832638,
+        "NASEM_net_energy_constraint": -1.237920374016504
+      }
+    },
+    "lotes": {
+      "inicio": {
+        "custo_otima": 27.52201018769049,
+        "cms_otima": 26.49142363519111,
+        "custo_atual": 32.98484633446312,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 48.538601862098105,
+        "pm_g": 2943.940996305968,
+        "elg_gestacao_mcal": 7.634087999999999
+      },
+      "primiparas": {
+        "custo_otima": 18.368371717776984,
+        "cms_otima": 19.723744369725605,
+        "custo_atual": 28.629305060850857,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 34.71549723831459,
+        "pm_g": 1866.625618848531,
+        "elg_gestacao_mcal": 0.017187344398317664
+      },
+      "final": {
+        "custo_otima": 17.462998278185974,
+        "cms_otima": 18.97152557103097,
+        "custo_atual": 30.38653807924083,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 33.1307999485654,
+        "pm_g": 1791.3748967781812,
+        "elg_gestacao_mcal": 0.3133752486962841
+      },
+      "referencia": {
+        "custo_otima": 24.051750433616313,
+        "cms_otima": 24.43009351242461,
+        "custo_atual": 35.93849183198446,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 43.62781521393101,
+        "pm_g": 2447.435074107601,
+        "elg_gestacao_mcal": 0.0
+      }
+    },
+    "reducao_custo_pct": 30.21119848032212,
+    "diferenca_iofc_brl_ano": 362191.6277723429
+  },
+  "cms_fixa": {
+    "otima": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490.0,
+      "custo_dieta_brl_dia": 2376.3500789447858,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 6348.649921055214,
+      "iofc_brl_vaca_dia": 63.48649921055214,
+      "custo_alimentar_brl_kg_leite": 0.6809026014168441,
+      "iofc_brl_ano": 2317257.221185153,
+      "custo_dieta_brl_ano": 867367.7788148468
+    },
+    "atual": {
+      "n_vacas": 100,
+      "leite_kg_dia": 3490,
+      "custo_dieta_brl_dia": 3284.562941650929,
+      "receita_leite_brl_dia": 8725.0,
+      "iofc_brl_dia": 5440.437058349071,
+      "iofc_brl_vaca_dia": 54.40437058349071,
+      "custo_alimentar_brl_kg_leite": 0.9411355133670284,
+      "iofc_brl_ano": 1985759.526297411,
+      "custo_dieta_brl_ano": 1198865.473702589
+    },
+    "atual_inviavel": {
+      "inicio": {
+        "protein_constraint_lower": -292.0209743832638,
+        "NASEM_net_energy_constraint": -1.237920374016504
+      }
+    },
+    "lotes": {
+      "inicio": {
+        "custo_otima": 28.89514889392097,
+        "cms_otima": 24.634657301199418,
+        "custo_atual": 32.98484633446312,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 48.538601862098105,
+        "pm_g": 2943.940996305968,
+        "elg_gestacao_mcal": 7.634087999999999
+      },
+      "primiparas": {
+        "custo_otima": 18.76550641447469,
+        "cms_otima": 21.33901048704768,
+        "custo_atual": 28.629305060850857,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 34.71549723831459,
+        "pm_g": 1866.625618848531,
+        "elg_gestacao_mcal": 0.017187344398317664
+      },
+      "final": {
+        "custo_otima": 18.588209182743633,
+        "cms_otima": 22.648773812699833,
+        "custo_atual": 30.38653807924083,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 33.1307999485654,
+        "pm_g": 1791.3748967781812,
+        "elg_gestacao_mcal": 0.3133752486962841
+      },
+      "referencia": {
+        "custo_otima": 24.464252350147532,
+        "cms_otima": 26.78695317477615,
+        "custo_atual": 35.93849183198446,
+        "reducao_leite_kg": 0.0,
+        "otima_atende_rufas": true,
+        "convergiu_slp": true,
+        "nel_mcal": 43.62781521393101,
+        "pm_g": 2447.435074107601,
+        "elg_gestacao_mcal": 0.0
+      }
+    },
+    "reducao_custo_pct": 27.650950182420488,
+    "diferenca_iofc_brl_ano": 331497.69488774193
+  }
+}
