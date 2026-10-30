@@ -1,0 +1,17 @@
+[rufas]
+  feed.json da fazenda com a ração ótima: /app/go_campo_dourado_ifg/fazenda/inputs_resolvidos/feed.json
+  cenários atual, otima × sementes candidatas [44, 45, 46, 47, 48, 49]: /app/go_campo_dourado_ifg/fazenda/cenarios
+  Rodando 3 pares de simulações, 2 por vez (dezenas de minutos)...
+    go_campo_dourado_ifg_atual_s44: falhou (44 s): ValueError: Separator 'screw_press_1' attempted to separate more water into manure solids fraction than was present in manure entering separator. The separated_solids_dry_matter value for separator 'screw_press_1' may need to be increased.
+    go_campo_dourado_ifg_otima_s44: ok (375 s)
+    go_campo_dourado_ifg_otima_s45: ok (526 s)
+    go_campo_dourado_ifg_atual_s45: ok (526 s)
+    go_campo_dourado_ifg_atual_s46: ok (493 s)
+    go_campo_dourado_ifg_otima_s46: ok (497 s)
+    go_campo_dourado_ifg_otima_s47: ok (400 s)
+    go_campo_dourado_ifg_atual_s47: ok (402 s)
+  semente 44 descartada: atual: ValueError: Separator 'screw_press_1' attempted to separate more water into manure solids fraction than was present in manure entering separator. The separated_solids_dry_matter value for separator 'screw_press_1' may need to be increased.
+  semente 45: IOFC/ano atual R$ 1,757,771  ótima R$ 1,963,162  diferença R$ +205,391
+  semente 46: IOFC/ano atual R$ 1,746,894  ótima R$ 1,953,866  diferença R$ +206,972
+  semente 47: IOFC/ano atual R$ 1,716,719  ótima R$ 1,980,509  diferença R$ +263,790
+  diferença média R$ +225,384/ano (IC 95%: R$ 142,738 a R$ 308,030)

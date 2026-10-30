@@ -1,0 +1,10 @@
+[otimizar]
+  Início de lactação           custo  27.510 R$/vaca/dia  CMS 26.78 kg  IOFC  67.490  validação RuFaS ok
+  Primíparas                   custo  18.328 R$/vaca/dia  CMS 19.56 kg  IOFC  56.672  validação RuFaS ok
+  Final de lactação            custo  17.389 R$/vaca/dia  CMS 18.62 kg  IOFC  45.111  validação RuFaS ok
+  Vaca referência (quadro)     custo  24.002 R$/vaca/dia  CMS 24.17 kg  IOFC  75.998  validação RuFaS ok
+  variante rufas_1_0_5        custo da dieta -30.34%  IOFC     +363,718 R$/ano  atual inviável em ['inicio']
+  variante sem_erro_gestacao  custo da dieta -35.25%  IOFC     +422,605 R$/ano  atual inviável em []
+  variante perdas_fixas       custo da dieta -30.21%  IOFC     +362,192 R$/ano  atual inviável em ['inicio']
+  variante cms_fixa           custo da dieta -27.65%  IOFC     +331,498 R$/ano  atual inviável em ['inicio']
+  Simplex tabular: 24.001842  |  HiGHS: 24.001842  (comparação com o RationOptimizer do RuFaS: etapa 'comparar')

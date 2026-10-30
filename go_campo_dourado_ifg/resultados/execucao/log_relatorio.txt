@@ -1,0 +1,2 @@
+[relatorio]
+  /app/go_campo_dourado_ifg/resultados/relatorio_otimizacao.md

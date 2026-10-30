@@ -1,8 +1,8 @@
 # RUFAS .gitignore
 
 # ignore text files
-*.txt
-*.txt#
+#*.txt
+#*.txt#
 *.doc
 #*.docx
 !constraints-release.txt

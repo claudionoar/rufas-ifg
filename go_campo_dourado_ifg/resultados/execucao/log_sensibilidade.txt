@@ -1,0 +1,2 @@
+[sensibilidade]
+  18432 PLs em 43 s; sem solução: 0; SLP sem convergência: 868; dieta fora do RuFaS: 94 (pior folga -0.89% da exigência). Mais influentes no IOFC: Preço do leite (ST=0.55), Produção de leite (ST=0.37), Dias em lactação (ST=0.08), Preço Farelo de soja 48% (ST=0.01), Preço Silagem de sorgo (ST=0.01)

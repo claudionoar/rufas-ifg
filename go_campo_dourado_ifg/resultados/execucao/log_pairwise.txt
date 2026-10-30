@@ -1,0 +1,2 @@
+[pairwise]
+  18 cenários (fatorial completo: 729); pares descobertos: 0; dieta fora do RuFaS: 0

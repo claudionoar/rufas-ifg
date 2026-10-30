@@ -1,0 +1,24 @@
+[comparar]
+  Caso da aula (US$)         PL    4.6731  RationOptimizer    4.6343 (convergiu 0/10, viável 2/10)  PL − RO  +0.84%
+  Início de lactação         PL   27.5220  RationOptimizer   27.0768 (convergiu 10/10, viável 10/10)  PL − RO  +1.64%
+  Primíparas                 PL   18.3684  RationOptimizer   18.3608 (convergiu 10/10, viável 10/10)  PL − RO  +0.04%
+  Final de lactação          PL   17.4630  RationOptimizer   17.4552 (convergiu 10/10, viável 10/10)  PL − RO  +0.04%
+  Vaca referência (quadro)   PL   24.0518  RationOptimizer   24.0052 (convergiu 9/10, viável 9/10)  PL − RO  +0.19%
+  Pairwise C01               PL   19.4948  RationOptimizer   19.4807 (convergiu 10/10, viável 10/10)  PL − RO  +0.07%
+  Pairwise C02               PL   23.5645  RationOptimizer   23.4985 (convergiu 10/10, viável 10/10)  PL − RO  +0.28%
+  Pairwise C03               PL   29.8260  RationOptimizer   29.8259 (convergiu 6/10, viável 9/10)  PL − RO  +0.00%
+  Pairwise C04               PL   25.7380  RationOptimizer   25.7380 (convergiu 9/10, viável 9/10)  PL − RO  +0.00%
+  Pairwise C05               PL   26.2756  RationOptimizer   26.2756 (convergiu 10/10, viável 10/10)  PL − RO  -0.00%
+  Pairwise C06               PL   22.7191  RationOptimizer   22.7191 (convergiu 10/10, viável 10/10)  PL − RO  +0.00%
+  Pairwise C07               PL   19.2733  RationOptimizer   19.2733 (convergiu 10/10, viável 10/10)  PL − RO  -0.00%
+  Pairwise C08               PL   22.6047  RationOptimizer   22.6047 (convergiu 10/10, viável 10/10)  PL − RO  +0.00%
+  Pairwise C09               PL   31.3336  RationOptimizer   31.2415 (convergiu 10/10, viável 10/10)  PL − RO  +0.29%
+  Pairwise C10               PL   21.9537  RationOptimizer   21.9072 (convergiu 10/10, viável 10/10)  PL − RO  +0.21%
+  Pairwise C11               PL   17.3948  RationOptimizer   17.3948 (convergiu 10/10, viável 10/10)  PL − RO  +0.00%
+  Pairwise C12               PL   19.3893  RationOptimizer   19.3893 (convergiu 10/10, viável 10/10)  PL − RO  +0.00%
+  Pairwise C13               PL   24.0518  RationOptimizer   24.0052 (convergiu 9/10, viável 9/10)  PL − RO  +0.19%
+  Pairwise C14               PL   26.3008  RationOptimizer   26.2819 (convergiu 10/10, viável 10/10)  PL − RO  +0.07%
+  Pairwise C15               PL   31.5991  RationOptimizer   31.0307 (convergiu 10/10, viável 10/10)  PL − RO  +1.83%
+  Pairwise C16               PL   32.1947  RationOptimizer   32.1947 (convergiu 10/10, viável 10/10)  PL − RO  +0.00%
+  Pairwise C17               PL   22.5658  RationOptimizer   22.5658 (convergiu 10/10, viável 10/10)  PL − RO  -0.00%
+  Pairwise C18               PL   22.5684  RationOptimizer   22.5684 (convergiu 8/10, viável 10/10)  PL − RO  -0.00%
